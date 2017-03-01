@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '../App';
-import '../index.css';
-import { Router, Route, IndexRoute, browserHistory } from 'react-router'
+import App from './App';
+import './index.css';
+import { Router, Route, IndexRoute, hashHistory } from 'react-router'
 import About from './Pages/About';
 import Music from './Pages/Music';
 import Gigs from './Pages/Gigs';
@@ -10,7 +10,7 @@ import Videos from './Pages/Videos';
 import Contact from './Pages/Contact'
 
 ReactDOM.render(
-    <Router history={browserHistory}>
+    <Router history={hashHistory}>
         <Route path="/">
             <IndexRoute component={App} />
             <Route path="/about" component={About}/>
