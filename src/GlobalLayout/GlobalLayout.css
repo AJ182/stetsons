@@ -167,11 +167,11 @@
 }
 
 .app__tagline {
-    padding: 10px;
+    padding: 10px 0;
     font-weight: 600;
     color: #fff;
     text-align: center;
-    width: 100%;
+    width: calc(100% - 2px);
     background: #f02324;
     border: 1px solid black;
     border-top: none;
