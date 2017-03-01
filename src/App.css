@@ -11,8 +11,10 @@ body {
 }
 
 .app__fullPage {
-  background: url(https://scontent.xx.fbcdn.net/v/t1.0-9/13528658_1330286627000014_3408631579984366551_n.jpg?oh=624c9215c60ea22dbacf3c1a8889b886&oe=596C1679) 50% 50%;
+  background: url(https://scontent.xx.fbcdn.net/v/t1.0-9/13528658_1330286627000014_3408631579984366551_n.jpg?oh=624c9215c60ea22dbacf3c1a8889b886&oe=596C1679) 50% 50% no-repeat;
+  background-size: cover;
   height: 100vh;
+  min-width: 100%;
 }
 
 .app__headers {
