@@ -9,10 +9,10 @@ class App extends Component {
       return (
           <div className="App">
               <div className="app__fullPage">
-            <GlobalLayout page="Home">
+              <GlobalLayout page="Home">
 
                 <div className="app__headers">
-                    New release <a href="https://stetsons.bandcamp.com/track/no-ball-games" className="app__link">'No Ball Games'</a> out now!
+                    New release <br/><a href="https://stetsons.bandcamp.com/track/no-ball-games" className="app__link">'No Ball Games'</a> <br/>out now!
                 </div>
                 <div className="app__mainContent">
                     {/*<Release release={{*/}
@@ -23,7 +23,7 @@ class App extends Component {
                     {/*}}/>*/}
                 </div>
 
-            </GlobalLayout>
+                </GlobalLayout>
               </div>
           </div>
         );
