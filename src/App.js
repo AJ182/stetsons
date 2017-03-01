@@ -12,7 +12,7 @@ class App extends Component {
             <GlobalLayout page="Home">
 
                 <div className="app__headers">
-                    New release 'No ball games' out now!
+                    New release <a href="https://stetsons.bandcamp.com/track/no-ball-games" className="app__link">'No Ball Games'</a> out now!
                 </div>
                 <div className="app__mainContent">
                     {/*<Release release={{*/}
