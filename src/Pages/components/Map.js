@@ -1,0 +1,159 @@
+import React from 'react';
+
+class Map extends React.Component {
+
+    componentDidMount() {
+        this.initMap();
+    }
+
+        initMap = () => {
+
+            var styledMapType = new window.google.maps.StyledMapType(
+                [
+                    {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
+                    {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
+                    {elementType: 'labels.text.stroke', stylers: [{color: '#f5f1e6'}]},
+                    {
+                        featureType: 'administrative',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#c9b2a6'}]
+                    },
+                    {
+                        featureType: 'administrative.land_parcel',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#dcd2be'}]
+                    },
+                    {
+                        featureType: 'administrative.land_parcel',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#ae9e90'}]
+                    },
+                    {
+                        featureType: 'landscape.natural',
+                        elementType: 'geometry',
+                        stylers: [{color: '#dfd2ae'}]
+                    },
+                    {
+                        featureType: 'poi',
+                        elementType: 'geometry',
+                        stylers: [{color: '#dfd2ae'}]
+                    },
+                    {
+                        featureType: 'poi',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#93817c'}]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'geometry.fill',
+                        stylers: [{color: '#a5b076'}]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#447530'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry',
+                        stylers: [{color: '#f5f1e6'}]
+                    },
+                    {
+                        featureType: 'road.arterial',
+                        elementType: 'geometry',
+                        stylers: [{color: '#fdfcf8'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry',
+                        stylers: [{color: '#f8c967'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#e9bc62'}]
+                    },
+                    {
+                        featureType: 'road.highway.controlled_access',
+                        elementType: 'geometry',
+                        stylers: [{color: '#e98d58'}]
+                    },
+                    {
+                        featureType: 'road.highway.controlled_access',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#db8555'}]
+                    },
+                    {
+                        featureType: 'road.local',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#806b63'}]
+                    },
+                    {
+                        featureType: 'transit.line',
+                        elementType: 'geometry',
+                        stylers: [{color: '#dfd2ae'}]
+                    },
+                    {
+                        featureType: 'transit.line',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#8f7d77'}]
+                    },
+                    {
+                        featureType: 'transit.line',
+                        elementType: 'labels.text.stroke',
+                        stylers: [{color: '#ebe3cd'}]
+                    },
+                    {
+                        featureType: 'transit.station',
+                        elementType: 'geometry',
+                        stylers: [{color: '#dfd2ae'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'geometry.fill',
+                        stylers: [{color: '#b9d3c2'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#92998d'}]
+                    }
+                ],
+                {name: 'Styled Map'});
+
+        let map = new window.google.maps.Map(document.getElementById('map'+this.props.id), {
+            zoom: 11,
+            center: {lat: 53.5841125, lng: -2.6690281},
+            scrollwheel:  false
+        });
+        let geocoder = new window.google.maps.Geocoder();
+
+        this.geocodeAddress(geocoder, map, this.props.address);
+
+            map.mapTypes.set('styled_map', styledMapType);
+            map.setMapTypeId('styled_map');
+
+    };
+
+        geocodeAddress = (geocoder, resultsMap, address) => {
+        geocoder.geocode({'address': address}, function(results, status) {
+            if (status === 'OK') {
+                resultsMap.setCenter(results[0].geometry.location);
+                new window.google.maps.Marker({
+                    map: resultsMap,
+                    position: results[0].geometry.location
+                });
+            } else {
+                alert('Geocode was not successful for the following reason: ' + status);
+            }
+        });
+    };
+
+    render() {
+        return (
+            <div id={`map${this.props.id}`} style={{ height: '100%', width: '100%' }}></div>
+        );
+    }
+}
+
+export default Map;

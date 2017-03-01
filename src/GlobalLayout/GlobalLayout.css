@@ -1,0 +1,191 @@
+
+.title {
+    height: 80px;
+    color: white;
+    background-color: #fff;
+    width: 100%;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titleLogo {
+    max-width: 400px;
+}
+
+.followButtons {
+    float: right;
+    background-color: #fff;
+    padding: 0 0 10px 20px;
+    border-bottom-left-radius: 5px;
+    max-width: 100%;
+}
+
+.fb-like {
+    float: right;
+    padding: 30px 0 0 20px;
+}
+
+.spotifyFollow {
+    float: right;
+    padding: 30px 0 0 0;
+}
+
+@media (max-width: 500px) {
+    .fb-like {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    .spotifyFollow {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f02324;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.navBar li {
+    background-color: #f02324;
+    flex: 1 1 auto;
+}
+
+.navBar li a {
+    justify-content: space-between;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    border: 2px solid #000;
+    font-size: 1.2rem;
+    min-width: 93px;
+}
+
+.navBar li a:hover {
+    background-color: #fff;
+    color: #f02324;
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+.navBar li:last-child {
+
+}
+
+.navItem--active {
+    background-color: #fff;
+    color: #f02324;
+    font-weight: bold;
+}
+
+.navItem--inactive {
+    background-color: #f02324;
+    color: #fff;
+}
+
+@media (max-width: 505px) {
+    .navBar li:last-child  {
+        float: left;
+    }
+}
+
+.Footer {
+    position: Fixed;
+    bottom: 0;
+    background: #111;
+    width: 100%;
+    color: white;
+    height: 60px;
+    padding: 10px 0 0 0;
+    text-align: center;
+    z-index: 2;
+}
+
+.footerSpace {
+    height: 70px;
+    clear: both;
+}
+
+.FooterIcons {
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 400px) {
+    .FooterIcons {
+        font-size: 2rem;
+        padding: 0 5px 0 5px;
+    }
+}
+
+.FooterIcons:hover {
+    color: yellow;
+    transition-property: color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+.spotify {
+    color: green;
+}
+
+.facebook {
+    color: #34579a;
+}
+
+.twitter {
+    color: #53a9de;
+}
+
+.bandcamp {
+    color: #579aa8;
+}
+
+.soundcloud {
+    color: #ff5621;
+}
+
+.youtube {
+    color: #f02324;
+}
+
+.app__tagline {
+    padding: 10px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    background: #f02324;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.globalChildren {
+    text-align: center;
+}
+
+.site__headers {
+
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+    line-height: 2rem;
+
+}

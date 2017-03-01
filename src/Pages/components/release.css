@@ -1,0 +1,67 @@
+
+.release__container {
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ff0f05;
+    display: inline-block;
+    vertical-align: top;
+    width: 180px;
+    color: #ffffff;
+}
+
+.release__container:hover {
+    background-color: rgba(255, 15, 5, 0.7);
+}
+
+.release__name {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+    line-height: 22px;
+}
+
+.release__year {
+    border-bottom: 2px solid white;
+}
+
+.release__artwork {
+    height: 160px;
+    width: 160px;
+    z-index: -1;
+}
+
+.release__artwork:hover {
+
+}
+
+.release__artworkContainer {
+    height: 160px;
+    width: 160px;
+    border: 1px black solid;
+    margin: 15px 10px 10px 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.music__discography--title {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.release__artLinks {
+    position: relative;
+    z-index: 1;
+    background: black;
+    font-size: 0.6rem;
+    padding: 10px 0 20px 0;
+    animation: mymove 1.5s 1;
+    margin: -50px;
+}
+
+@keyframes mymove {
+    0% {opacity: 0;}
+    50% {transform: translateY(-10px); opacity: 1;}
+}

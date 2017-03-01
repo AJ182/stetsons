@@ -1,0 +1,28 @@
+@import './Pages/Music.css';
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.app__fullPage {
+  background: url(https://scontent.xx.fbcdn.net/v/t1.0-9/13528658_1330286627000014_3408631579984366551_n.jpg?oh=624c9215c60ea22dbacf3c1a8889b886&oe=596C1679) 50% 50%;
+  height: 100vh;
+}
+
+.app__headers {
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 20px;
+  line-height: 15rem;
+  color: white;
+}
+
+.app__mainContent {
+
+}
