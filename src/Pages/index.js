@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './src/App';
-import './src/index.css';
+import App from '../App';
+import '../index.css';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router'
 import About from './Pages/About';
 import Music from './Pages/Music';
