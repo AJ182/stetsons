@@ -6,12 +6,11 @@ import Release from './components/Release';
 class Music extends React.Component {
 
     render() {
-        console.log(this.props);
         return (
             <div>
                 <GlobalLayout page="Music">
                     <div className="music__discography">
-                        <div className="music__discography--title">Discography</div>
+                        <div className="music__discography--title titles">Discography</div>
                         {releases.releases.map((release, k) => (
                             <Release
                                 release={release}
