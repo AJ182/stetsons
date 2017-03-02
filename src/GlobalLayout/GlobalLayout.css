@@ -75,7 +75,8 @@
     transition-timing-function: ease-out;
     border: 2px solid #000;
     font-size: 1.2rem;
-    min-width: 93px;
+    min-width: 111px;
+    border-collapse: collapse;
 }
 
 .navBar li a:hover {
@@ -126,6 +127,8 @@
 .FooterIcons {
     padding: 0 10px 0 10px;
     cursor: pointer;
+    animation-duration: 2s;
+    animation-name: slidein;
 }
 
 @media (max-width: 400px) {
@@ -134,6 +137,22 @@
         padding: 0 5px 0 5px;
     }
 }
+
+.FooterIcons--3 {
+    animation-duration: 2s;
+    animation-name: slideInCenter;
+}
+
+.FooterIcons--2 {
+    animation-duration: 2s;
+    animation-name: slideInNextToCenter;
+}
+
+.FooterIcons--1 {
+    animation-duration: 2s;
+    animation-name: slideInSides;
+}
+
 
 .FooterIcons:hover {
     color: yellow;
@@ -174,7 +193,6 @@
     width: calc(100% - 4px);
     background: #f02324;
     border: 2px solid black;
-    border-top: none;
 }
 
 .globalChildren {
@@ -187,5 +205,59 @@
     text-align: center;
     padding: 20px;
     line-height: 2rem;
+}
 
+
+@keyframes slideInCenter {
+    0% {
+        margin-top: 50%;
+        height: 100%;
+    }
+
+    70% {
+        margin-top: 0;
+        height: 100%;
+        transform: translateY(-90%);
+    }
+
+    100% {
+        margin-top: 0;
+        height: 100%;
+    }
+}
+
+@keyframes slideInNextToCenter {
+    0% {
+        margin-top: 50%;
+        height: 100%;
+    }
+
+    70% {
+        margin-top: 0;
+        height: 100%;
+        transform: translateY(-70%);
+    }
+
+    100% {
+        margin-top: 0%;
+        height: 100%;
+    }
+}
+
+@keyframes slideInSides {
+    0% {
+        margin-top: 50%;
+        height: 100%;
+    }
+
+    70% {
+        margin-top: 0;
+        height: 100%;
+        transform: translateY(-50%);
+    }
+
+    100% {
+        margin-top: 0;
+        height: 100%;
+    }
 }
