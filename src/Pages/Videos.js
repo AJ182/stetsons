@@ -36,7 +36,7 @@ class Videos extends React.Component {
     };
 
     render()  {
-        console.log(VideoData.videos.length);
+
         return (
             <div>
                 <GlobalLayout page="Videos">
@@ -45,8 +45,8 @@ class Videos extends React.Component {
                             Videos!
                         </div>
                         <div className="videos__buttonsContainer">
-                            <button className={this.state.first ? "titles button buttonDisabled" : "titles button"} onClick={this.previousVideo} disabled={this.state.first}>Previous</button>
-                            <button className={this.state.last ? "titles button buttonDisabled" : "titles button"} onClick={this.nextVideo} disabled={this.state.last}>Next</button>
+                            <button className={this.state.first ? "titles buttonDisabled" : "titles button"} onClick={this.previousVideo} disabled={this.state.first}>Previous</button>
+                            <button className={this.state.last ? "titles buttonDisabled" : "titles button"} onClick={this.nextVideo} disabled={this.state.last}>Next</button>
                         </div>
                         <VideoItem id={this.state.currVideo}/>
                     </div>

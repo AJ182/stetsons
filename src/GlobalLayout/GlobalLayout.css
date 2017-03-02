@@ -196,11 +196,24 @@
 .app__tagline {
     padding: 5px 0;
     font-weight: 600;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     width: calc(100% - 4px);
-    background: #f02324;
+    background-color: #f02324;
     border: 2px solid black;
+}
+
+@media (max-width: 650px) {
+    .app__tagline {
+        background-color: transparent;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        background-image: linear-gradient(red, transparent);
+        padding: 5px 0 20px 0;
+    }
+
 }
 
 .globalChildren {

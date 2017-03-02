@@ -12,7 +12,7 @@ class Gigs extends React.Component {
         return (
             <div>
                 <GlobalLayout page="Live Shows">
-                    <h1>Live</h1>
+                    <div className="titles">Live Shows</div>
                     <div>
                         {gigs.gigs.map((g, k) => (
                             <Gigitem

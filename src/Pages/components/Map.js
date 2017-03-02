@@ -122,7 +122,7 @@ class Map extends React.Component {
                 {name: 'Styled Map'});
 
         let map = new window.google.maps.Map(document.getElementById('map'+this.props.id), {
-            zoom: 11,
+            zoom: 12,
             center: {lat: 53.5841125, lng: -2.6690281},
             scrollwheel:  false
         });
