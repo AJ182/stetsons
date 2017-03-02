@@ -171,9 +171,9 @@
     font-weight: 600;
     color: #fff;
     text-align: center;
-    width: calc(100% - 2px);
+    width: calc(100% - 4px);
     background: #f02324;
-    border: 1px solid black;
+    border: 2px solid black;
     border-top: none;
 }
 
