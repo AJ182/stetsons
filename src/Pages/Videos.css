@@ -1,0 +1,21 @@
+
+.videosPageContainer {
+
+}
+
+.videosPageTitle {
+    padding: 20px 0 0 0;
+}
+
+.VideoItemContainer iframe{
+    outline: none;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.videoItem__description {
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 1.2rem;
+}
