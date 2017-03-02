@@ -127,8 +127,16 @@
 .FooterIcons {
     padding: 0 10px 0 10px;
     cursor: pointer;
-    animation-duration: 2s;
-    animation-name: slidein;
+
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+            3px 3px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
+
 }
 
 @media (max-width: 400px) {

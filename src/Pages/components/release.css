@@ -13,7 +13,12 @@
 }
 
 .release__container:hover {
-    background-color: rgba(255, 15, 5, 0.7);
+    color: #ff0f05;
+    background-color: white;
+    border-color: #ff0f05;
+    transition-property: border-color, background-color, color;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 .release__name {
