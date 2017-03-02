@@ -20,6 +20,7 @@ class Music extends React.Component {
                     </div>
 
                     <div className="musicPlayers__container">
+                        <div className="titles">Music Players</div>
                         <div className="musicPlayers">
                             <iframe src="https://embed.spotify.com/?uri=spotify%3Aartist%3A1EnFvfSbHqACPmunlABTBJ"
                                     width="400" height="402">

@@ -24,7 +24,6 @@
 @media (max-width: 650px) {
     .musicPlayers iframe {
         margin: 5px;
-        float: none;
     }
 }
 
@@ -39,7 +38,7 @@
 }
 
 .music__discography {
-    padding: 20px 0 0 0;
+    padding: 20px 0;
     width: 100%;
     text-align: center;
 }
