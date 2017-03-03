@@ -1,0 +1,87 @@
+
+.contact__outer {
+    margin: 0 20px;
+}
+
+.contact__detailsFormOuter {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+    width: 330px;
+}
+
+@media (max-width: 750px) {
+    .contact__detailsFormOuter {
+        margin: 20px 0;
+    }
+}
+
+.contact__detailsFormOuter--textline {
+    padding: 5px 0;
+}
+
+.contact__detailsFormOuter--type {
+    color: #ff0f05;
+    font-weight: bold;
+}
+
+.contact__mapContainer {
+    height: 240px;
+    width: 330px;
+    margin-top: 10px;
+}
+
+.contact__formInput {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 0 10px;
+    font-family: 'Arvo', sans-serif;
+}
+
+.contact__formInputLarge {
+    font-family: 'Arvo', sans-serif;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.4rem;
+    padding: 5px 10px;
+    vertical-align: top;
+}
+
+.contact__formInputContainer {
+    margin: 10px 0;
+    text-align: left;
+    width: 200px;
+}
+
+.contact__label {
+    margin: 10px;
+
+}
+
+.contact__labelContainer {
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 420px) {
+    .contact__formInputContainer {
+        width: 90%;
+    }
+}
+
+.contact__submitButtonContainer {
+    text-align: left;
+}

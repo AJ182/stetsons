@@ -62,13 +62,21 @@
 .navBar li {
     background-color: #f02324;
     flex: 1 1 auto;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 1px;
+    text-shadow:
+            2px 2px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
 }
 
 .navBar li a {
     justify-content: space-between;
     display: block;
     text-align: center;
-    padding: 5px 0;
+    padding: 8px 0 3px 0;
     text-decoration: none;
     transition-property: background-color, color;
     transition-duration: 1s;
@@ -194,13 +202,20 @@
 }
 
 .app__tagline {
-    padding: 5px 0;
-    font-weight: 600;
+    padding: 7px 0 2px 0;
     color: #ffffff;
     text-align: center;
     width: calc(100% - 4px);
     background-color: #f02324;
     border: 2px solid black;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 1px;
+    text-shadow:
+            2px 2px 0 #000,
+            -1px -1px 0 #000,
+            1px -1px 0 #000,
+            -1px 1px 0 #000,
+            1px 1px 0 #000;
 }
 
 @media (max-width: 650px) {
@@ -213,7 +228,6 @@
         background-image: linear-gradient(red, transparent);
         padding: 5px 0 20px 0;
     }
-
 }
 
 .globalChildren {
