@@ -6,7 +6,6 @@ class App extends Component {
 
     componentWillMount() {
         this.value = Math.random();
-        console.log(this.value, typeof(this.value), this.value < 0.25)
     }
 
     getRandom = () => {
