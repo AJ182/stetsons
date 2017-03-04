@@ -4,12 +4,33 @@ import './App.css';
 
 class App extends Component {
 
+    componentWillMount() {
+        this.value = Math.random();
+        console.log(this.value, typeof(this.value), this.value < 0.25)
+    }
+
+    getRandom = () => {
+
+        if(this.value < 0.33) {
+            return '1';
+        }
+        else if(this.value < 0.66) {
+            return '2';
+        }
+        else if(this.value <=1) {
+            return '3';
+        }
+        else {
+            return '1';
+        }
+    };
+
 
     render() {
 
         return (
             <div className="App">
-                <div className="app__fullPage">
+                <div className={`app__fullPage--${this.getRandom()}`}>
                     <GlobalLayout page="Home">
 
                         <div className="app__headers">
