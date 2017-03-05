@@ -1,6 +1,6 @@
 
 
-.VideoItemContainer iframe{
+.VideoItemContainer div iframe{
     outline: none;
     border: 3px solid black;
     border-radius: 5px;
@@ -8,6 +8,7 @@
 
 .videoItem__description {
     max-width: 560px;
+    min-width: 400px;
     margin: 0 auto;
     padding: 20px 0;
     font-size: 1.2rem;

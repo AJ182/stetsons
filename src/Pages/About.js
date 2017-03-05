@@ -7,8 +7,12 @@ class About extends React.Component {
         return (
           <div>
               <GlobalLayout page="About">
+                  <div className="titles videosPageTitle">
+                      About
+                  </div>
+                  <div className="pageItem">
                   <div className="site__headers">
-                      <br/>
+
                       Rock n Roll from the heart of the Wild Northwest.
                       <br/>
                       Tommy Hewitt. Tommy Jones. The Prospector.
@@ -22,7 +26,7 @@ class About extends React.Component {
                   <div className="site__headers">
                       From shows across the Northwest, to performing <br/>live on BBC Radio Manchester, The Stetsons Electric <br/>make a lasting impact wherever they go.
                   </div>
-
+                  </div>
               </GlobalLayout>
           </div>
 

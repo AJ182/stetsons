@@ -216,6 +216,10 @@
             1px -1px 0 #000,
             -1px 1px 0 #000,
             1px 1px 0 #000;
+    position: absolute;
+    top: 35px;
+    right: 0;
+    left: 0;
 }
 
 @media (max-width: 650px) {
@@ -230,8 +234,16 @@
     }
 }
 
+@media (max-width: 689px) {
+    .app__tagline {
+        top: 70px;
+    }
+}
+
 .globalChildren {
     text-align: center;
+    overflow: auto;
+    padding: 35px 0;
 }
 
 .site__headers {

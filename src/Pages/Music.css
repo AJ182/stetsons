@@ -1,6 +1,6 @@
 
 .musicPlayers__container {
-
+    overflow: auto;
 }
 
 .musicPlayers {

@@ -15,23 +15,15 @@ body {
   background-size: cover;
   height: 100vh;
   min-width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .app__fullPage--2 {
-  background: url('http://i.imgur.com/R43eiv0.jpg') 50% 50% no-repeat;
-  background-size: cover;
-  height: 100vh;
-  min-width: 100%;
-  overflow: hidden;
-}
-
-.app__fullPage--3 {
   background: url('http://i.imgur.com/nIkEsrH.jpg') 50% 50% no-repeat;
   background-size: cover;
   height: 100vh;
   min-width: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .app__headers {

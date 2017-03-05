@@ -3,15 +3,21 @@
     margin: 0 20px;
 }
 
+.contact__message {
+    max-width: 780px;
+    padding: 5px 0;
+    display: block;
+    margin: 0 auto;
+}
+
 .contact__detailsFormOuter {
-    border: 2px solid black;
-    border-radius: 5px;
     margin: 20px;
     padding: 20px;
     display: inline-block;
     text-align: left;
     vertical-align: top;
     width: 330px;
+
 }
 
 @media (max-width: 750px) {

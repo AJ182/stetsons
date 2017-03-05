@@ -2,7 +2,7 @@
 .release__container {
     padding: 10px;
     margin: 20px;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     border-radius: 5px;
     text-align: center;
     background-color: #ff0f05;
@@ -44,7 +44,7 @@
 .release__artworkContainer {
     height: 160px;
     width: 160px;
-    border: 1px black solid;
+    border: 1px white solid;
     margin: 15px 10px 10px 10px;
     border-radius: 5px;
     overflow: hidden;
@@ -60,9 +60,12 @@
     z-index: 1;
     background: black;
     font-size: 0.6rem;
-    padding: 10px 0 20px 0;
+    padding: 9px 0;
     animation: mymove 1.5s 1;
-    margin: -50px;
+    margin: -50px 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    overflow: hidden;
 }
 
 @keyframes mymove {

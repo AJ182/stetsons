@@ -23,7 +23,7 @@ class Gigitem extends React.Component {
 
     render() {
         return (
-            <div className="gigItem__outer">
+            <div className="gigItem__outer pageItem">
                 <span className="gigItem__buttonContainer">
                     {this.state.visible ? (
                         <button className="titles button" onClick={this.hideMap}>Hide Map</button>

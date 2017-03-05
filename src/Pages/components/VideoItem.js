@@ -11,8 +11,10 @@ class VideoItem extends React.Component {
         }
         return (
             <div className="VideoItemContainer">
-                <iframe width={width} height="315" src={video.url} frameBorder="0" allowFullScreen></iframe>
-                <div className="videoItem__description">{video.desc}</div>
+                <div>
+                    <iframe width={width} height="315" src={video.url} frameBorder="0" allowFullScreen></iframe>
+                </div>
+                <div className="videoItem__description pageItem">{video.desc}</div>
             </div>
         );
     }

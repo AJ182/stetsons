@@ -12,9 +12,9 @@
 }
 
 .gigItem__outer {
-    min-height: 100px;
     line-height: 70px;
     text-align: left;
-    margin: 0 30px;
     font-size: 1.3rem;
+    padding: 0 10px;
+    margin: 5px 0;
 }

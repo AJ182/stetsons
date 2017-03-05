@@ -38,17 +38,17 @@ class Contact extends React.Component {
                         <div className="titles">
                             Contact Us
                         </div>
-                        <div >
+                        <div className=" contact__message pageItem">
                             Whether you want to book us for your event or just find out more about us, you can use the information here to get in touch!
                         </div>
 
-                        <div className="contact__detailsFormOuter">
+                        <div className="contact__detailsFormOuter pageItem">
                             <div className="contact__detailsFormOuter--textLine"><span className="contact__detailsFormOuter--type">email: </span>TheStetsonsElectric@hotmail.com</div>
                             <div className="contact__detailsFormOuter--textLine"><span className="contact__detailsFormOuter--type">twitter: </span>@the_stetsons</div>
                             <div className="contact__detailsFormOuter--textLine"><span className="contact__detailsFormOuter--type">facebook: </span>The Stetsons Electric</div>
                         </div>
 
-                        <div className="contact__detailsFormOuter">
+                        <div className="contact__detailsFormOuter pageItem">
                             <div className="contact__detailsFormOuter--textLine">We're from:<br/> Standish, Wigan, United Kingdom</div>
                             <div className="contact__mapContainer">
                                 <Map address="standish, wigan, uk"/>
