@@ -128,7 +128,7 @@
 }
 
 .footerSpace {
-    height: 70px;
+    height: 110px;
     clear: both;
 }
 
@@ -222,7 +222,7 @@
     left: 0;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
     .app__tagline {
         background-color: transparent;
         border-bottom: none;
