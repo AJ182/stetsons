@@ -5,7 +5,7 @@
 
 .contact__message {
     max-width: 780px;
-    padding: 5px 0;
+    padding: 10px;
     display: block;
     margin: 0 auto;
 }
@@ -20,10 +20,22 @@
 
 }
 
-@media (max-width: 750px) {
+.contact__mapContainer {
+    height: 240px;
+    width: 330px;
+    margin-top: 10px;
+}
+
+@media (max-width: 780px) {
     .contact__detailsFormOuter {
-        margin: 20px 0;
+        margin: 20px 0 0 0;
+        width: calc(100% - 44px);
     }
+    .contact__mapContainer {
+        width: 100%;
+        margin: 0;
+    }
+
 }
 
 .contact__detailsFormOuter--textLine {
@@ -33,12 +45,6 @@
 .contact__detailsFormOuter--type {
     color: #ff0f05;
     font-weight: bold;
-}
-
-.contact__mapContainer {
-    height: 240px;
-    width: 330px;
-    margin-top: 10px;
 }
 
 .contact__formInput {
