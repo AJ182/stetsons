@@ -29,7 +29,7 @@ class GlobalLayout extends React.Component {
               <NavBar page={this.props.page}/>
               <div className={`app__fullPage--${this.getRandom()}`}>
                   <div className="app__tagline">
-                      The Stetsons - Three Rockin' Men Since God Knows When
+                      The Stetsons Electric - Three Rockin' Men Since God Knows When
                   </div>
 
                   <div className="globalChildren">
