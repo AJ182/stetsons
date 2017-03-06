@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f811761c-9d46-4660-ae5a-9618407bc266" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.cbf2987a.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/css/main.cbf2987a.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.a1c4e291.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.a1c4e291.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.aaceb37d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/static/js/main.aaceb37d.js.map" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gh-pages/.cache" afterPath="$PROJECT_DIR$/node_modules/gh-pages/.cache" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GlobalLayout/GlobalLayout.js" afterPath="$PROJECT_DIR$/src/GlobalLayout/GlobalLayout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pages/components/Gigitem.js" afterPath="$PROJECT_DIR$/src/Pages/components/Gigitem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pages/stores/GigData.js" afterPath="$PROJECT_DIR$/src/Pages/stores/GigData.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gigitem.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Gigitem.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Pages/components/Gigitem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="474">
+              <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -59,21 +58,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pages/contact.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-105">
-              <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="VideoItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pages/components/VideoItem.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GigData.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pages/stores/GigData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -89,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlobalLayout.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GlobalLayout.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/GlobalLayout/GlobalLayout.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
@@ -167,11 +166,9 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Pages/Music.css" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/Pages/components/Gigitem.js" />
         <option value="$PROJECT_DIR$/src/Pages/Contact.js" />
         <option value="$PROJECT_DIR$/src/Pages/components/VideoItem.js" />
         <option value="$PROJECT_DIR$/src/Pages/components/release.css" />
-        <option value="$PROJECT_DIR$/src/Pages/stores/GigData.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/Pages/contact.css" />
         <option value="$PROJECT_DIR$/src/Pages/Videos.css" />
@@ -179,6 +176,8 @@
         <option value="$PROJECT_DIR$/src/Pages/About.js" />
         <option value="$PROJECT_DIR$/src/Pages/components/gigitem.css" />
         <option value="$PROJECT_DIR$/src/GlobalLayout/GlobalLayout.js" />
+        <option value="$PROJECT_DIR$/src/Pages/stores/GigData.js" />
+        <option value="$PROJECT_DIR$/src/Pages/components/Gigitem.js" />
       </list>
     </option>
   </component>
@@ -194,7 +193,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="2097" />
+    <option name="y" value="145" />
     <option name="width" value="1440" />
     <option name="height" value="804" />
   </component>
@@ -439,15 +439,15 @@
       <workItem from="1488534925849" duration="9735000" />
       <workItem from="1488583139993" duration="512000" />
       <workItem from="1488625759612" duration="8493000" />
-      <workItem from="1488742387021" duration="1491000" />
+      <workItem from="1488742387021" duration="1730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41535000" />
+    <option name="totallyTimeSpent" value="41774000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="804" extended-state="6" />
+    <frame x="2097" y="145" width="1440" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2473573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -537,6 +537,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -558,6 +559,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="68" column="26" lean-forward="false" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -565,6 +567,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -572,6 +575,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="62" column="14" lean-forward="false" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,14 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/stores/GigData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" lean-forward="false" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding />
         </state>
       </provider>
@@ -665,14 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/components/Gigitem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="25" column="40" lean-forward="false" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/components/gigitem.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -685,6 +673,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="31" column="63" lean-forward="false" selection-start-line="31" selection-start-column="63" selection-end-line="31" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/stores/GigData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/components/Gigitem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="36" column="64" lean-forward="false" selection-start-line="36" selection-start-column="64" selection-end-line="36" selection-end-column="64" />
           <folding />
         </state>
       </provider>

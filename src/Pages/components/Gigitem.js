@@ -34,7 +34,7 @@ class Gigitem extends React.Component {
 
                 <strong>{this.props.gig.venue}</strong> - {this.props.gig.date}, {this.props.gig.address}
 
-                {this.state.visible && <div className="mapContainer">
+                {this.state.visible && <div className="contact__mapContainer">
                     <Map address={this.props.gig.address} id={this.props.id}/>
                 </div>}
             </div>
