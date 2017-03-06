@@ -208,6 +208,8 @@
     width: calc(100% - 4px);
     background-color: #f02324;
     border: 2px solid black;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
     font-family: 'Luckiest Guy', cursive;
     letter-spacing: 1px;
     text-shadow:
