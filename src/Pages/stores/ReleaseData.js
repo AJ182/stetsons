@@ -13,7 +13,7 @@
      {
          name: 'No Ball Games',
          year: 2017,
-         artwork: 'https://photos-6.dropbox.com/t/2/AABNiqvOpsXitZTziyYVtV2olxCBwwTQl1JWTCCKzfVX1w/12/48453941/jpeg/32x32/1/_/1/2/16804276_1612076175487723_5103928276527384497_o.jpg/EObilyUYWiAHKAc/-yWn0X34gDej-beeqPlXtldrry-hRbZ468U-OFTFlh0?size=1600x1200&size_mode=3',
+         artwork: 'https://f4.bcbits.com/img/a2716786669_10.jpg',
          id: 4,
          spotify: 'https://open.spotify.com/album/6MCS47qmmf6MvQZ0QM5Pz1',
          soundcloud: '',
@@ -40,7 +40,7 @@
      {
          name: 'Das Giddy',
          year: 2015,
-         artwork: 'https://photos-3.dropbox.com/t/2/AADSQpiTsP1all6faya777BzCnvMX97TkhJ37qwz1QGCJQ/12/48453941/jpeg/32x32/1/_/1/2/10639540_899092756786072_3094302091982556530_n.jpg/EObilyUYWiAHKAc/imBEUIwhH0z_hOTdhfyxFF-xOuEgpqnqJs_i8vQPCjs?size=1280x960&size_mode=3',
+         artwork: 'https://f4.bcbits.com/img/a1215671198_10.jpg',
          id: 1,
          spotify: 'https://open.spotify.com/album/1d0rMgWlr6HsrHU9aUVLky',
          soundcloud: 'https://soundcloud.com/the-stetsons-electric/sets/das-giddy',
