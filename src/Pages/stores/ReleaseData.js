@@ -2,6 +2,15 @@
 
  export const releases = [
      {
+         name: 'Oh! Glittery Stetson',
+         year: 2017,
+         artwork: 'https://f4.bcbits.com/img/a3047364577_10.jpg',
+         id: 5,
+         spotify: 'https://open.spotify.com/track/3Sm67izvChtBVlrAIPfPDv',
+         soundcloud: '',
+         bandcamp: 'https://stetsons.bandcamp.com/track/oh-glittery-stetson'
+     },
+     {
          name: 'No Ball Games',
          year: 2017,
          artwork: 'https://photos-6.dropbox.com/t/2/AABNiqvOpsXitZTziyYVtV2olxCBwwTQl1JWTCCKzfVX1w/12/48453941/jpeg/32x32/1/_/1/2/16804276_1612076175487723_5103928276527384497_o.jpg/EObilyUYWiAHKAc/-yWn0X34gDej-beeqPlXtldrry-hRbZ468U-OFTFlh0?size=1600x1200&size_mode=3',
