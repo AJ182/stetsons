@@ -21,8 +21,7 @@ class Release extends React.Component {
     render() {
         return (
             <div className="release__container" onMouseEnter={this.onMouseEnter} onMouseLeave={this.onMouseLeave}>
-                <span className="release__name">{this.props.release.name} - </span>
-                <span className="release__year"> {this.props.release.year}</span>
+                <span className="release__name">{this.props.release.name}</span>
                 <div className="release__artworkContainer">
                     <img src={this.props.release.artwork} className="release__artwork" alt="Artwork Not Found"/>
                         {this.state.hover && <div className="release__artLinks">
@@ -32,6 +31,7 @@ class Release extends React.Component {
                         </div>}
 
                 </div>
+                <span className="release__year"> {this.props.release.year}</span>
             </div>
         );
     }

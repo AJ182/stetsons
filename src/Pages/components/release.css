@@ -28,7 +28,10 @@
 }
 
 .release__year {
-    border-bottom: 2px solid white;
+    display: block;
+    text-align: right;
+    margin: 0 0 0 auto;
+    font-size: 12px;
 }
 
 .release__artwork {
@@ -60,7 +63,7 @@
     z-index: 1;
     background: black;
     font-size: 0.6rem;
-    padding: 9px 0;
+    padding: 9px 0 20px 0;
     animation: mymove 1.5s 1;
     margin: -50px 0;
     border-bottom-right-radius: 5px;
