@@ -9,6 +9,10 @@ export const videos = [
         desc: 'A live acoustic recording outdoors with Wolf and Bear sessions!'
     },
     {
+        url: 'https://www.youtube.com/embed/SSYarVmBJIs',
+        desc: 'The glittery stetson strikes back!'
+    },
+    {
         url: 'https://player.vimeo.com/video/164716605',
         desc: 'We featured in this video along with Ravellas, discussing how we practice and prepare for gigs.'
     },

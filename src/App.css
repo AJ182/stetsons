@@ -11,7 +11,7 @@ body {
 }
 
 .app__fullPage--1 {
-  background: url(https://scontent.xx.fbcdn.net/v/t1.0-9/13528658_1330286627000014_3408631579984366551_n.jpg?oh=624c9215c60ea22dbacf3c1a8889b886&oe=596C1679) 50% 50% no-repeat;
+  background: url('http://i.imgur.com/yDRL7N8.jpg') 50% 50% no-repeat;
   background-size: cover;
   height: 100vh;
   min-width: 100%;
@@ -20,6 +20,14 @@ body {
 
 .app__fullPage--2 {
   background: url('http://i.imgur.com/nIkEsrH.jpg') 50% 50% no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-width: 100%;
+  overflow-x: hidden;
+}
+
+.app__fullPage--3 {
+  background: url('http://i.imgur.com/M5fk92L.jpg') 50% 50% no-repeat;
   background-size: cover;
   height: 100vh;
   min-width: 100%;

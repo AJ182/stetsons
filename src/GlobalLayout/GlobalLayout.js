@@ -11,14 +11,14 @@ class GlobalLayout extends React.Component {
 
     getRandom = () => {
 
-        if(this.value < 0.5) {
+        if(this.value < 0.34) {
             return '1';
         }
-        else if(this.value <=1) {
+        else if(this.value <= 0.66) {
             return '2';
         }
         else {
-            return '1';
+            return '3';
         }
     };
 
