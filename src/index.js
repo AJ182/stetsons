@@ -7,7 +7,8 @@ import About from './Pages/About';
 import Music from './Pages/Music';
 import Gigs from './Pages/Gigs';
 import Videos from './Pages/Videos';
-import Contact from './Pages/Contact'
+import Contact from './Pages/Contact';
+import Ravellas from './Ravellas';
 
 ReactDOM.render(
     <Router history={hashHistory}>
@@ -18,6 +19,7 @@ ReactDOM.render(
             <Route path="/live-shows" component={Gigs}/>
             <Route path="/videos" component={Videos}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/ravellas" component={Ravellas} />
         </Route>
     </Router>
   ,
