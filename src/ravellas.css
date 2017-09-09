@@ -5,3 +5,16 @@
     width: 100%;
     min-height: 100vh;
 }
+
+.ravellas__link {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    min-width: 100vh;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
