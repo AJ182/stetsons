@@ -13,7 +13,7 @@ class App extends Component {
 
                     <GlobalLayout page="Home">
                         <div className="app__headers">
-                            <div className="app__content">New release <br/><a href="https://stetsons.bandcamp.com/track/no-ball-games" target="_blank" className="app__link">'No Ball Games'</a> <br/>out now!</div>
+                            <div className="app__content">New release <br/><a href="https://stetsons.bandcamp.com/track/dirty-ripper" target="_blank" className="app__link">'Dirty Ripper'</a> <br/>out now!</div>
                         </div>
 
                         <div className="app__mainContent">

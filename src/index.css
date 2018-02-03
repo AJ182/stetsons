@@ -68,3 +68,9 @@ body {
     border-radius: 5px;
     display: inline-block;
 }
+
+.getInContact {
+  padding: 20px;
+  font-size: 18px;
+  margin: 10px 0 0 0;
+}

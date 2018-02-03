@@ -2,6 +2,15 @@
 
  export const releases = [
      {
+         name: 'Visually Impaired',
+         year: 2018,
+         artwork: 'https://f4.bcbits.com/img/a3047159062_10.jpg',
+         id: 6,
+         spotify: 'https://open.spotify.com/track/0G37AtkdWAryWOCLEg6HJL?si=Sxz3QmPmQ8W2r-MrbrGKag',
+         soundcloud: 'https://soundcloud.com/the-stetsons-electric/dirty-ripper',
+         bandcamp: 'https://stetsons.bandcamp.com/track/dirty-ripper'
+     },
+     {
          name: 'Oh! Glittery Stetson',
          year: 2017,
          artwork: 'https://f4.bcbits.com/img/a3047364577_10.jpg',
@@ -16,7 +25,7 @@
          artwork: 'https://f4.bcbits.com/img/a2716786669_10.jpg',
          id: 4,
          spotify: 'https://open.spotify.com/album/6MCS47qmmf6MvQZ0QM5Pz1',
-         soundcloud: '',
+         soundcloud: 'https://soundcloud.com/the-stetsons-electric/no-ball-games',
          bandcamp: 'https://stetsons.bandcamp.com/track/no-ball-games'
      },
      {

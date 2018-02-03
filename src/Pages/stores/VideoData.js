@@ -9,6 +9,10 @@ export const videos = [
         desc: 'A live acoustic recording outdoors with Wolf and Bear sessions!'
     },
     {
+        url: 'https://www.youtube.com/embed/v818dE1qxYU',
+        desc: 'Dirty Ripper, Visually Impaired part 1'
+    },
+    {
         url: 'https://www.youtube.com/embed/SSYarVmBJIs',
         desc: 'The glittery stetson strikes back!'
     },

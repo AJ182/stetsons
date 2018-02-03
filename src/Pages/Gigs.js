@@ -2,7 +2,7 @@ import React from 'react';
 import GlobalLayout from '../GlobalLayout/GlobalLayout';
 import * as gigs from './stores/GigData';
 import Gigitem from './components/Gigitem';
-
+import { Link } from 'react-router';
 
 class Gigs extends React.Component {
 
@@ -21,6 +21,9 @@ class Gigs extends React.Component {
                                 key={k}
                             />
                         ))}
+                    </div>
+                    <div className="pageItem getInContact">
+                        Want to book us? <Link to="/contact" style={{ color: 'red' }}>Get in contact!</Link>
                     </div>
                 </GlobalLayout>
             </div>
