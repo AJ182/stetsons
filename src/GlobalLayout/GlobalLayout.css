@@ -76,7 +76,7 @@
     justify-content: space-between;
     display: block;
     text-align: center;
-    padding: 8px 0 3px 0;
+    padding: 3px 0 6px 0;
     text-decoration: none;
     transition-property: background-color, color;
     transition-duration: 1s;
@@ -202,7 +202,7 @@
 }
 
 .app__tagline {
-    padding: 7px 0 2px 0;
+    padding: 4px 0 5px 0;
     color: #ffffff;
     text-align: center;
     width: calc(100% - 4px);
