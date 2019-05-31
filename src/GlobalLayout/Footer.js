@@ -8,7 +8,7 @@ class Footer extends React.Component {
                 <div className="Footer">
                     <a href="https://open.spotify.com/artist/1EnFvfSbHqACPmunlABTBJ" target="_blank"><i
                         className="fa fa-spotify fa-3x FooterIcons spotify FooterIcons--1" aria-hidden="true"></i></a>
-                    <a href="http://www.facebook.com/thestetsonswigan" target="_blank"><i
+                    <a href="https://www.facebook.com/thestetsonselectric/" target="_blank"><i
                         className="fa fa-facebook-square fa-3x FooterIcons facebook FooterIcons--2"
                         aria-hidden="true"></i></a>
                     <a href="https://twitter.com/The_Stetsons" target="_blank"><i
@@ -27,7 +27,7 @@ class Footer extends React.Component {
                 <div className="Footer">
                     <a href="https://open.spotify.com/artist/1EnFvfSbHqACPmunlABTBJ" target="_blank"><i
                         className="fa fa-spotify fa-3x FooterIcons spotify" aria-hidden="true"></i></a>
-                    <a href="http://www.facebook.com/thestetsonswigan" target="_blank"><i
+                    <a href="https://www.facebook.com/thestetsonselectric/" target="_blank"><i
                         className="fa fa-facebook-square fa-3x FooterIcons facebook"
                         aria-hidden="true"></i></a>
                     <a href="https://twitter.com/The_Stetsons" target="_blank"><i
