@@ -1,13 +1,13 @@
 
 export const gigs = [
     {
-        venue: 'The Old Courts (Main Room)',
-        date: '5th May 2019',
-        address: 'Crawford Street, Wigan'
+        venue: 'Aatma',
+        date: '5th December 2019',
+        address: '1st Floor, 14-16 Faraday St, Manchester M1 1BE'
     },
     {
-        venue: 'The Old Courts (Main Room), w/ The Guns N Roses Experience',
-        date: '21st June 2019',
-        address: 'Crawford Street, Wigan'
+        venue: 'The Tudor',
+        date: '1st February 2020',
+        address: 'New Market St, Wigan WN1 1SE'
     },
 ];
